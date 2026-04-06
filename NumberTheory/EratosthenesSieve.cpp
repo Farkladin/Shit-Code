@@ -32,7 +32,7 @@
 using namespace std;
 using u64 = uint64_t;
 
-constexpr u64 targetN = 1ULL << 28;
+constexpr u64 targetN = 1000000000ULL;
 
 // ==========================================
 // Original Precomputations (For Baseline Benchmark)
@@ -302,7 +302,7 @@ int main() {
     cin.tie(NULL);
 
     cout << "==========================================\n";
-    cout << " Eratosthenes Sieve Benchmark (target N = 2^28)\n";
+    cout << " Eratosthenes Sieve Benchmark (target N = 10^9)\n";
     cout << "==========================================\n\n";
 
     // Initialize arrays (mark 0 and 1 as composite)
